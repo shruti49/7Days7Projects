@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1#clock,
+h1#timer {
+  text-align: center;
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 100px 0px 40px 0;
+}
+
+#flex-container,
+#flex-box {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+#flex-item,
+#flex-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  background: #00bf96;
+  padding: 10px 20px;
+}
+
+.text,
+.small-text {
+  padding-top: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#btns {
+  text-align: center;
+}
+
+#btns > button {
+  background-color: #00bf96;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 2px;
+}
