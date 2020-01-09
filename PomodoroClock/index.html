@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pomodoro Clock</title>
+    <script src="https://kit.fontawesome.com/05f7d9a665.js"></script>
+  </head>
+  <body>
+    <h1 id="timer">Pomodoro Clock</h1>
+    <div class="session">
+      <h3>Session Length</h3>
+      <button class="sincbtn">
+        <i class="fas fa-angle-up"></i>
+      </button>
+      <span class="session-length">25</span>
+      <button class="sdecbtn">
+        <i class="fas fa-angle-down"></i>
+      </button>
+    </div>
+    <div class="break">
+      <h3>Break Length</h3>
+      <button class="bincbtn">
+        <i class="fas fa-angle-up"></i>
+      </button>
+      <span class="break-length">5</span>
+      <button class="bdecbtn">
+        <i class="fas fa-angle-down"></i>
+      </button>
+    </div>
+    <div id="flex-box">
+      <div id="flex-items">
+        <span class="minute" id="minute"></span>
+        <h4 class="small-text">minutes</h4>
+      </div>
+      <div id="flex-items">
+        <span class="second" id="second"></span>
+        <h4 class="small-text">seconds</h4>
+      </div>
+    </div>
+    <div id="btns">
+      <button class="start" onclick="start()">start</button>
+      <button class="pause" onclick="pause()">pause</button>
+      <button class="reset" onclick="reset()">reset</button>
+    </div>
+    <h2 id="para"></h2>
+    <script src="index.js"></script>
+  </body>
+</html>
